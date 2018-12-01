@@ -3,10 +3,10 @@ Chips and Salsa
 
 Contributers
 ------------
-Dylan Chatterjee\n
-Manlo Ngai\n
-Rahul Bhaskar\n
-Tony Lew\n
+Dylan Chatterjee  
+Manlo Ngai  
+Rahul Bhaskar  
+Tony Lew  
 
 Introduction
 ------------
