@@ -16,9 +16,9 @@ Flask, nltk, scikit-learn
 
 *Steps to Build and Test:*
 --------------------------
-- Download the Jupyter notebook.
+- Download the Jupyter notebook - cosolo.ipynb. This notebook has the code to build the model for the recommendation engine. 
 - Download the projects_profile_preference.tsv file. This file has the preference data for project description, profile description, and freelancer preference.
-- Python Flask web application is the web frontend. It uses the pickled model to predict if a project will match user preference or not. 
+- Python Flask web application is the web frontend. It uses the pickled model to predict if a project will match user preference or not. This can be forked and deployed on Google cloud app engine. 
 
 Data
 -------------------
