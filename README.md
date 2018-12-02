@@ -6,12 +6,11 @@ Chips and Salsa
 
 *Key Technologies:*
 -------------------
-<for example: Flask, Tensor Flow, Keras>
+Flask, nltk, scikit-learn
 
 *Steps to Build and Test:*
 --------------------------
 
-<Please list and describe all steps necessary to build and run this product/service>
 
 Code Structure and basic instructions
 -------------------------------------
