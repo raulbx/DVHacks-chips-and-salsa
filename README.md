@@ -17,7 +17,7 @@ Flask, nltk, scikit-learn
 *Steps to Build and Test:*
 --------------------------
 - Download the Jupyter notebook.
-- Download the projects_profile_preference.tsv file. This file has the preference data for project description, profile description, and preference.
+- Download the projects_profile_preference.tsv file. This file has the preference data for project description, profile description, and freelancer preference.
 - Python Flask web application is the web frontend. It uses the pickled model to predict if a project will match user preference or not. 
 
 Data
