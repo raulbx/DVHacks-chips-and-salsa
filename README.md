@@ -1,15 +1,17 @@
 Chips and Salsa
 ===================================================
+*Overview:*
+-----------
+<Please describe this product or service including any machine learning models used>
 
-Contributers
-------------
-Dylan Chatterjee  
-Manlo Ngai  
-Rahul Bhaskar  
-Tony Lew  
+*Key Technologies:*
+-------------------
+<for example: Flask, Tensor Flow, Keras>
 
-Introduction
-------------
+*Steps to Build and Test:*
+--------------------------
+
+<Please list and describe all steps necessary to build and run this product/service>
 
 Code Structure and basic instructions
 -------------------------------------
@@ -23,3 +25,10 @@ The training data contains a row per comment, with an id, the text of the commen
 Max_df
 
 When building the vocabulary, it ignores terms that have a document frequency strictly higher than the given threshold. This could be used to exclude terms that are too frequent and are unlikely to help predict the label. For example, by analyzing reviews on the movie Lion King, the term 'Lion' might appear in 90% of the reviews (documents), in which case, we could consider establishing Max_df=0.89
+
+Contributers
+------------
+Dylan Chatterjee  
+Manlo Ngai  
+Rahul Bhaskar  
+Tony Lew  
