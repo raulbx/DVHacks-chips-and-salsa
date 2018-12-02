@@ -6,15 +6,9 @@ CoSolo allows freelancers to view and apply for projects from multiple project w
 
 The initial version of the product would have ability for the freelancer to log-in using linkedIn profile, which would allow CoSolo to download linkedIn profile data of the freelancer, so he/she does not have to retype it.  There will be a preference page where the freelancer can add preferences for their projects such as hourly rate, location and number of workdays in a week.  Finally, there will be a dashboard of top 5 projects in ranked order based on recommendation engine.  These projects would have been ingested from various project sites that have open APIs or which we can scrape project info from.  Eventually, we would need to integrate with these systems so we can apply to them directly, but for now, we would just present them, and the freelancer would have to go to each site to apply for it.  We believe that just having one consolidated place where they can see the projects that matter to them the most would be a value-add for the freelancers. 
 
-The ideal recommendaiton engine should recommend based on freelancer's preference as stated on their preferene page as well as based on a machine-learned algorithm which will be based on past-history of freelancer applying for the jobs.  Since we won't have this historical data for a given freelancer in the beginning, we would initially ask freelancer whether they like or do not like n number of projects.  It would be akin to using Tinder's like or dislike UI. Based on this, we can create an AI model to predict whether freelancer will like other available projects. In addition, once freelancer starts applying for and winning the projects, we can capture this data and feed it back into the engine to increase accuracy of preference prediction as well as winnability. 
+The ideal recommendaiton engine should recommend using freelancer's preference info as stated on their preferene page as well as on a machine-learned algorithm which will be based on past-history of freelancer applying for different projects.  Since we won't have this historical data for a given freelancer in the beginning, we would initially ask freelancer whether they like or do not like n number of projects.  It would be akin to using Tinder's like or dislike feature to collect this data. Based on this, we can create an AI model to predict whether freelancer will like other available projects. Once freelancer starts applying for and winning the projects, we can capture this data and feed it back into the engine to increase accuracy of preference prediction as well as winnability. 
 
-For the purpose of the Hackathon we focused on building only the recommendation engine, as this was the core AI part of our product. We used Random-Forrest Classifer algorithm because this provided most flexibility in terms
-
-
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Classifer and Forest-model
-
+For the purpose of the Hackathon, we focused on building the recommendation engine that would use the freelancer's manual like or dislike feature. We used Random-Forrest Classifer algorithm because this provided most flexibility in terms solving a classification problem.  As stated below in data section, we created synthetic data (over 8k rows) to create and test the model.  The final hackathon product will be a html webpage, which shows list of top 5 projects from gocatalant.com with probably that matches preference for a given freelancer.  
 
 *Key Technologies:*
 -------------------
