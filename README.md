@@ -37,12 +37,6 @@ In addition, to be more focused on solving data science problem, in the model, w
 
 Based on above, we were able to create 4 columns of data (ID, ProjectDescription, ProfileDescription, Preference) for 8560 rows (40 freelancer data to every 214 projects) with 710 "Y" data.  We used 80/20 
 
-
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Max_df
-
-When building the vocabulary, it ignores terms that have a document frequency strictly higher than the given threshold. This could be used to exclude terms that are too frequent and are unlikely to help predict the label. For example, by analyzing reviews on the movie Lion King, the term 'Lion' might appear in 90% of the reviews (documents), in which case, we could consider establishing Max_df=0.89
-
 Contributers
 ------------
 Dylan Chatterjee  
