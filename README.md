@@ -2,9 +2,13 @@ Chips and Salsa
 ===================================================
 *Overview:*
 -----------
-CoSolo allows freelancers to view and apply for freelance projects from multiple project websites easily.  
+CoSolo allows freelancers to view and apply for projects from multiple project websites conveniently.  Using AI-based recommendation engine, CoSolo will present projects that match freelancer's preference and probablity of winning the project, in ranked order.  This would ensure that Freelancer can sift through the noise and only apply to projects that make the most sense for him/her. 
 
-The initial version of the product should 
+The initial version of the product would have ability for the freelancer to log-in using linkedIn profile, which would allow CoSolo to download linkedIn profile data of the freelancer, so he/she does not have to retype it.  There will be a preference page where the freelancer can add preferences for their projects such as hourly rate, location and number of workdays in a week.  Finally, there will be a dashboard of top 5 projects in ranked order based on recommendation engine.  These projects would have been ingested from various project sites that have open APIs or which we can scrape project info from.  Eventually, we would need to integrate with these systems so we can apply to them directly, but for now, we would just present them, and the freelancer would have to go to each site to apply for it.  We believe that just having one consolidated place where they can see the projects that matter to them the most would be a value-add for the freelancers. 
+
+The ideal recommendaiton engine should recommend based on freelancer's preference as stated on their preferene page as well as based on a machine-learned algorithm which will be based on past-history of freelancer applying for the jobs.  Since we won't have this historical data for a given freelancer in the beginning, we would initially ask freelancer whether they like or do not like n number of projects.  It would be akin to using Tinder's like or dislike UI. Based on this, we can create an AI model to predict whether freelancer will like other available projects. In addition, once freelancer starts applying for and winning the projects, we can capture this data and feed it back into the engine to increase accuracy of preference prediction as well as winnability. 
+
+For the purpose of the Hackathon we focused on building only the recommendation engine, as this was the core AI part of our product. We used Random-Forrest Classifer algorithm because this provided most flexibility in terms
 
 
 
