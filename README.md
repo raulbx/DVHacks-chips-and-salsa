@@ -16,10 +16,9 @@ Flask, nltk, scikit-learn
 
 *Steps to Build and Test:*
 --------------------------
-
-
-Code Structure and basic instructions
--------------------------------------
+- Open the Jupyter notebook.
+- Download the projects_profile_preference.tsv file. This file has mapping for project description, profile description, and preference.
+- Jupyter notebook shows step by how project, profile, and preference
 
 Data
 -------------------
