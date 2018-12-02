@@ -36,6 +36,10 @@ In addition, to be more focused on solving data science problem, in the model, w
 
 Based on above, we were able to create 4 columns of data (ID, ProjectDescription, ProfileDescription, Preference) for 8560 rows (40 freelancer data to every 214 projects) with 710 "Y" data.  We used 80/20 
 
+*Links*
+-------
+*[Presentation Slides]https://docs.google.com/presentation/d/1rlVuMV4E9SthtEQv27bzqupcE1qnvYFdn-uYr8_CrcQ
+
 Contributers
 ------------
 Dylan Chatterjee  
