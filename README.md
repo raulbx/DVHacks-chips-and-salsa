@@ -34,9 +34,9 @@ We created our test data based on 2 sources of data.
 
 Based on above data, we now had to determine if a particular project is something each freelancer would prefer to work on.  Since we don't really know what the synthetic freelancer would actually prefer to work on, we created a mechanism to assign a preference. This was done by matching the project type with the freelancer role.  For example, if a project type was corporate strategy, and a freelancer's role type was strategy, we assigned preference to be a "Y". On the other hand, if for the same project type, freelancer's role was marketing, then we assigned preference to be a "N".  
 
-In addition, to be more focused on solving data science problem, in the model, we only inputted project description and freelancer summary, as opposed to matching them on other more tactical fields such as dates, and rates, which do not require machine learning to solve. 
+In addition, to be more focused on solving data science problem, we only used project description and freelancer summary as inputs to the model, and ignored other potential dataset in the profile and project description such as education, and skills.  This was partly for simplication purposes - as we only had one engineer in the team, and he also just started solving data science problems for the first time this week - but also due to lack of data from freelancer profile side.  We also did not match them on other custom preference fields which are more more tactical such as dates, and rates, which do not require machine learning to solve. 
 
-Based on above, we were able to create 4 columns of data (ID, ProjectDescription, ProfileDescription, Preference) for 8560 rows (40 freelancer data to every 214 projects) with 710 "Y" data.  We used 80/20 
+Based on above, we were able to create 4 columns of data (ID, ProjectDescription, ProfileDescription, Preference) for 8560 rows (40 freelancer data to every 214 projects) with 710 "Y" data.  
 
 *Links*
 -------
