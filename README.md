@@ -2,7 +2,10 @@ Chips and Salsa
 ===================================================
 *Overview:*
 -----------
-<Please describe this product or service including any machine learning models used>
+CoSolo allows freelancers to view and apply for freelance projects from multiple project websites easily.  
+
+The initial version of the product should 
+
 
 
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
