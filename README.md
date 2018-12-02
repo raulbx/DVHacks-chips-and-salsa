@@ -12,7 +12,9 @@ For the purpose of the Hackathon, we focused on building the recommendation engi
 
 *Key Technologies:*
 -------------------
-Flask, nltk, scikit-learn
+* Flask: Python Web Application framework for the web front end.
+* nltk:  Python Natural Language Toolkit for NLP. This is also used to create bag of words.
+* scikit-learn: Python Machine Learning library to evaluate if a project is a good match for a freelancer. We are using random forest classifier to build a machine learning model and predict if a job would be a good match for a freelancer. 
 
 *Steps to Build and Test:*
 --------------------------
