@@ -41,10 +41,3 @@ Based on above, we were able to create 4 columns of data (ID, ProjectDescription
 *Links*
 -------
 * [Presentation Slides](https://docs.google.com/presentation/d/1rlVuMV4E9SthtEQv27bzqupcE1qnvYFdn-uYr8_CrcQ)
-
-Contributers
-------------
-Dylan Chatterjee  
-Manlo Ngai  
-Rahul Bhaskar  
-Tony Lew  
